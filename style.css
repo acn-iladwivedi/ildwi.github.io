@@ -189,4 +189,24 @@ nav {
     .about, .about1{
         text-align: center;
     }
+    .mainTitle {
+      margin: 0 0 0px 25px;
+      padding-right: 90px;
+  }
+  
+  .mainTitle, .mainTitleName {
+      position: relative;
+      text-transform: uppercase;
+      opacity: 1;
+  }
+  
+  .mainTitleBigLetter {
+      left: -15px;
+      font-size: 100px;
+      top: 22px;
+  }
+  .mainTitleName {
+      font-size: 20px;
+      line-height: 25px;
+  }
 }
