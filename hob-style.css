@@ -174,7 +174,7 @@ div.container {
 
 /*######### Mobile ###########*/
 
-@media screen and (max-device-width: 650px) {
+@media screen and (max-width: 950px) {
   ul.topnav li{
     display: none;
   }
