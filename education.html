@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ila's Education</title>
+        <link rel="stylesheet" href="edu-style.css">
+    </head>
+    <body>
+        <header>
+            <div class="row">
+            <div class="col-4">
+                <h1>Ila Dwivedi</h1>
+                <h2>Moody + Foody + Sunshine + Starlight</h2>
+            </div>
+            <div class="col-8">
+                <nav>
+                    <ul class="topnav" id="dropdownClick">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="education.html">Education</a></li>
+                      <li><a href="hobbies.html">Hobbies</a></li>
+                      <li  class="rightside"><a href="contact.html">Contact</a></li>
+                      <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+                    </ul>
+                </nav>
+            </div>    
+            </div>
+            </header>
+        <div class="liltop">
+                <div class="mainTitle">
+                    <div class="mainTitleName">Education</div>
+                    <div class="mainTitleBigLetter">E</div>
+                </div>
+        </div>
+        <div class="row">
+            <div class="col-5">
+                <img src="iitr_dribbble.png">
+            </div>
+            <div class="col-7">
+                <div class="about"> I am an undergraduate student of IIT Roorkee 2022 batch. </div>
+                <div class="about">My IIT-JEE rank was AIR 3201.</div>
+            </div>
+        </div>
+    </body>
+    <script>
+        function dropdownMenu() {
+          var x = document.getElementById("dropdownClick");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+            /*change topnav to topnav.responsive*/
+          } else {
+            x.className = "topnav";
+          }
+        }
+      </script>
+</html>

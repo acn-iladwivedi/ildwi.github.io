@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact</title>
+        <link rel="stylesheet" href="con-style.css">
+    </head>
+    <body>
+        <header>
+            <div class="row">
+            <div class="col-4">
+                <h1>Ila Dwivedi</h1>
+                <h2>Moody + Foody + Sunshine + Starlight</h2>
+            </div>
+            <div class="col-8">
+                <nav>
+                    <ul class="topnav" id="dropdownClick">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="education.html">Education</a></li>
+                      <li><a href="hobbies.html">Hobbies</a></li>
+                      <li  class="rightside"><a href="contact.html">Contact</a></li>
+                      <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+                    </ul>
+                </nav>
+            </div>    
+            </div>
+            </header>
+        <div class="liltop">
+                <div class="mainTitle">
+                    <div class="mainTitleName">Contact</div>
+                    <div class="mainTitleBigLetter">C</div>
+                </div>
+        </div>
+        <div class="row">
+        <h1 class="tag-line">Thanks for your interest in contacting me.</h1>
+        </div>
+    </div>
+        <div class="row">
+            <div class="col-4" id="contactInfo">
+                <div class="box">
+                    <div >Mobile Number : </div>
+                    <div >9414303986</div>
+                </div>                
+            </div>
+            <div class="col-4" id="contactInfo">
+                <div class="box">
+                    <div >Instagram username :</div>
+                <div >i._._.la</div></div>   
+            </div>
+            <div class="col-4" id="contactInfo">
+                <div class="box">
+                    <div >Email ID :</div>
+                    <div >idwivedi@ee.iitr.ac.in</div>
+            </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        function dropdownMenu() {
+          var x = document.getElementById("dropdownClick");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+            /*change topnav to topnav.responsive*/
+          } else {
+            x.className = "topnav";
+          }
+        }
+      </script>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ila Dwivedi</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <header>
+    <div class="row">
+    <div class="col-4">
+        <h1>Ila Dwivedi</h1>
+        <h2>Moody + Foody + Sunshine + Starlight</h2>
+    </div>
+    <div class="col-8">
+        <nav>
+            <ul class="topnav" id="dropdownClick">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="education.html">Education</a></li>
+              <li><a href="hobbies.html">Hobbies</a></li>
+              <li  class="rightside"><a href="contact.html">Contact</a></li>
+              <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+            </ul>
+        </nav>
+    </div>    
+    </div>
+    </header>
+    <div class="container">
+        <div class="row">
+          <div class="col-6">
+              <img src="main-pic.jpeg">
+          </div>
+          <div class="col-6">
+              <p class="about">
+                  Hi! I am a person of many interests , and web development is one of them (that's why this website is here<label>&#128513;</label>). Feedback and suggestions are always welcomed.<br><br> Feel free to surf through my website.
+              </p>
+              <p class="about1">
+                  Hope you like it !
+              </p>
+          </div>
+        </div>
+    </div>
+
+    </body>
+    <script>
+        function dropdownMenu() {
+          var x = document.getElementById("dropdownClick");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+            /*change topnav to topnav.responsive*/
+          } else {
+            x.className = "topnav";
+          }
+        }
+      </script>
+</html>
