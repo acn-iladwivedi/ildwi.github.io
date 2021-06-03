@@ -158,7 +158,7 @@ img {
 
  /*######### Mobile ###########*/
 
- @media screen and (max-width: 480px) {
+ @media screen and (max-width: 1200px) {
     ul.topnav li{
         display: none;
       }
