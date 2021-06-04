@@ -154,9 +154,13 @@ button.navbar-toggler{
   height: 75.7px;
 }
 /****************img*************/
-div.col-md-4.col-sm-12, div.col-md-3.col-sm-12 {
+div.col-lg-4.col-sm-12, div.col-lg-3.col-sm-12 {
   padding: 2.5% 0% 0%;
  
+}
+
+button{
+  display: none;
 }
 
 img{
@@ -172,7 +176,9 @@ h3{
   font-stretch: wider;
   
 }
-
+h6, p{
+  opacity: 1;
+}
 
 /*######### Mobile ###########*/
 
