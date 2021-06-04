@@ -1,50 +1,8 @@
-header{
-  display: block;
-  background-color: black;
-    text-decoration: none;
-    padding: 20px;
-    position: relative;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    z-index: 4;
-    overflow: hidden;
-}
-
-body {
-  line-height: 1;
-  margin: 0;
-}
-
-header div h1 {
-  font-size: 46px;
-  margin: 0;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: white;
-  }
-
-.tag-line{
-    font-size: 35px;
-    margin: 0px 27px;   
-}
-h2{
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-size: 16px;
-    margin: 0;
-    color: white;
-}
   .row {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
     align-items: center;
-    margin-top: 3%;
   }
   
   .row::after {
@@ -53,14 +11,11 @@ h2{
     content: "";
   }
 
-  .col-4 {width: 33.33%;}
-  .col-6 {width: 50%;}
-  .col-8 {width: 66.66%;}
 
-#contactInfo {width: 33.33%;}
 div.box {
     text-align: center;
-    margin: 41px;
+   margin: auto;
+   margin-top: 7%;
     padding: 25px 17px 25px 17px;
     border-radius: 7px;
     background-color: black;
@@ -69,169 +24,206 @@ div.box {
       width: 75%;
       height: 275px;     
   }
-  div.box div {
+
+div.col-lg-4.col-sm-12 {
+  padding-right: 0%;
+}
+  h5, h4 {
     color: blanchedalmond;
-    font-weight: 350;
-    font-size: 35px;
     margin:auto;
     padding-top: 17%;
+    font-family: 'Crimson Text', serif;
+  }
+
+  h3.tag-line{
+    color: #000;
+    margin-top: 2.7%;
+    text-align: center;
+    font-family: 'Crimson Text', serif;
   }
   * {
     box-sizing: border-box;
-    font-family: 'Crimson Text', serif;
   }
-  /*############### Nav bar ############*/
-
-nav {
-  margin: 0;
-}
-
-nav ul {
-  background-color: #eee;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-}
-
-ul.topnav li {
-  list-style: none;
-  float: left;
-}
-
-ul.topnav li.topnav-right {
-  float: right;
-}
-
-ul.topnav li a {
+  header,
+footer {
   display: block;
-  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  font-size: 17px;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.row::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+* {
+  box-sizing: border-box;
+}
+/****************header*****************/
+header{
+    background-color: black;
+    text-decoration: none;
+    padding: 17.7px 0px 15.5px 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 4;
+    overflow: hidden;
+}
+h1{
+  font-size: 2.5rem;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    font-family: serif;
+    height: 53px;
+}
+h2{
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 16px;
+    margin: 0;
+    color: white;
+    font-family: serif;
+    font-weight: 900;
+    padding-bottom: 0.03em;
+}
+
+/*############### Nav bar ############*/
+
+nav.navSize {
+  font-family: serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(102,102,102);
+  padding: 0%;
+}
+
+a.nav-link {
   min-height: 16px;
-  text-align: center;
-  padding: 14px;
+  text-align: left;
+  padding: 0px 0px 0px;
   text-transform: uppercase;
-  color: #666;
+  display: block;
+  margin-right: 1rem;
+  color: rgba(102,102,102);
+}
+a:hover {
+  color: rgba(102,102,102);
 }
 
-ul.topnav li a:hover {
-  background-color: #0080ff;
-  color: #fff;
-}
 
-ul.topnav li.dropdownIcon {
-  display: none;
+.navbar-toggler-icon{
+  width: 14.375px;
+  height: 21.7px;      
 }
-
-ul.topnav li.rightside {
+button.navbar-toggler{
+  border: none;
+}
+.navbar-toggler-icon, button.navbar-toggler-icon{
+  display: block;
   float: right;
+  position: relative;
+  top: 0;
+  right: 0;
 }
 /*********************Main Title***********/
 .liltop{
-  padding: 40px 27px;
+    padding: 27px 0px 0px 7.5px;
 }
 
 .mainTitleBigLetter {
-  position: absolute;
-  transform: translateY(-50%);
-  color: #f1f1f1;
-  font-size: 105px;
-  font-weight: 700;
-  z-index: -1;
+  display: block;
+    position: absolute;
+    top: -40px;
+    left: 26.7px;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    transform: rotate(20deg);
+    color: #f1f1f1;
+    font-size: 87px;
+    font-weight: 700;
+    z-index: -1;
+    text-transform: uppercase;
 }
 
 .mainTitleName {
-  font-size: 25px;
-  font-weight: 700;
-  display: inline;
-  margin: 2.5%;
+    font-size: 25px;
+    font-weight: 700;
+    display: inline;
+    margin: 2.5%;
 }
 
 .mainTitleName:after {
-  content: '';
-  max-width: 105px;
-  width: 100%;
-  height: 1px;
-  display: inline-block;
-  background-color: #000;
-  top: 50%;
-  position: absolute;
-  right: -125px;
+    content: '';
+    width: 100%;
+    height: 1px;
+    display: inline-block;
+    background-color: #000;
+    top: 50%;
+    position: absolute;
+    right: -125px;
+    max-width: 105px;
 }
 
 .mainTitle, .mainTitleName {
-  position: relative;
-  text-transform: uppercase;
+    position: relative;
+    text-transform: uppercase;
 }
 
-  /*######### Mobile ###########*/
+.card-body {
+  padding: 0 0 1.75rem;
+  height: 75.7px;
+}
 
- @media only screen and (max-device-width: 480px) {
-  ul.topnav li{
-      display: none;
-    }
-  ul.topnav li.dropdownIcon {
-    display: block;
-    float: right;
-  }
-  
-  ul.topnav.responsive li.dropdownIcon {
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
-  
-  ul.topnav.responsive {
-    position: relative;
-  }
-  
-  ul.topnav.responsive li {
-    display: inline;
-    float: none; 
-  }
-  
-  ul.topnav.responsive li a {
-    display: block;
-    text-align: left;
-  }
-div .box div {
-   padding-top: 7.5%;
-   position: relative;
- } 
-  .col-8,
-  .col-4, #contactInfo {
-      overflow: hidden;
-    width: 100%;  
 
-  }
-  
-  #contactInfo{
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-  .col-6 {
-      margin-right: 3%;
-  }
-  .about{
-      margin-left: 3%
-  }
+/*######### Mobile ###########*/
+
+@media screen and (max-width: 991px) {
 .mainTitle {
-  margin: 0 0 40px;
+  margin: 0 0 0px 25px;
   padding-right: 90px;
 }
 
-.mainTitle, .mainTitleName {
-  position: relative;
-  text-transform: uppercase;
-  opacity: 1;
-}
-
 .mainTitleBigLetter {
-  left: -15px;
-  font-size: 100px;
-  top: 22px;
+  left: auto;
+  font-size: 75px;
 }
 .mainTitleName {
   font-size: 20px;
   line-height: 25px;
 }
+.mainTitle, .mainTitleName {
+position: relative;
+text-transform: uppercase;
+opacity: 1;
+height: auto;
+width: auto;
+}
+.mainTitleName:after {
+max-width: 30px;
+margin-left: 0;
+right: auto;
+left: calc(100% + 10px);
+transform: translateY(-50%);
+-webkit-transform: translateY(-50%);
 }
 
+}
